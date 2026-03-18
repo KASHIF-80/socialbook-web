@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Social Network</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="navbar">
+    <h2>🌐 SocialBook</h2>
+</div>
+
+<div class="container">
+
+    <div class="create-post">
+        <input id="user" placeholder="Your Name">
+        <textarea id="text" placeholder="What's on your mind?"></textarea>
+        <button onclick="post()">Share Post</button>
+    </div>
+
+    <div id="feed"></div>
+
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>

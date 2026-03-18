@@ -1,0 +1,75 @@
+body{
+margin:0;
+font-family:Segoe UI;
+background:#eef2f7;
+}
+
+.navbar{
+background:linear-gradient(90deg,#1877f2,#4facfe);
+color:white;
+padding:15px;
+text-align:center;
+box-shadow:0 2px 8px rgba(0,0,0,0.2);
+}
+
+.container{
+width:500px;
+margin:30px auto;
+}
+
+.create-post{
+background:white;
+padding:15px;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+margin-bottom:20px;
+}
+
+.create-post input,
+.create-post textarea{
+width:100%;
+padding:10px;
+margin-top:10px;
+border-radius:8px;
+border:1px solid #ddd;
+}
+
+.create-post button{
+margin-top:10px;
+width:100%;
+padding:12px;
+border:none;
+border-radius:8px;
+background:linear-gradient(90deg,#1877f2,#4facfe);
+color:white;
+font-size:16px;
+cursor:pointer;
+}
+
+.post{
+background:white;
+padding:15px;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+margin-bottom:15px;
+animation:fade .4s;
+}
+
+.post h4{
+margin:0;
+color:#1877f2;
+}
+
+.like-btn{
+margin-top:10px;
+background:#eee;
+border:none;
+padding:8px 15px;
+border-radius:20px;
+cursor:pointer;
+}
+
+@keyframes fade{
+from{opacity:0; transform:translateY(10px)}
+to{opacity:1; transform:translateY(0)}
+}
