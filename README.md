@@ -72,8 +72,6 @@ node server.js
 http://localhost:5500
 ```
 
-(Add project screenshot here)
-
 ## 📌 Future Improvements
 
 * User authentication system
